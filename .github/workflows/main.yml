@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - main.c  # main.c被修改时触发
+      - main.c
+      - main.py
 
 jobs:
   build-and-test:
@@ -33,5 +34,5 @@ jobs:
             exit 0  # 退出
           fi
           git clone https://${MY_URL}:x-oauth-basic@github.com/NGC2237plus/c-cpp_test.git
-          cp c-cpp_test/test.py .
+          cd c-cpp_test
           python3 test.py
