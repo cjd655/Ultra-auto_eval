@@ -7,7 +7,7 @@
 - 第二行填写github登录使用的邮箱
 - 第三行填写你的姓名
 
-示例：
+C语言示例：
 ```c
 //202210116122
 //3093236313@qq.com
@@ -20,10 +20,18 @@ int main()
 }
 ```
 
+Python示例：
+```python
+#202210116122
+#3093236313@qq.com
+#何嘉
+print('Hello World')
+```
+
 <details open>
 <summary><h2>Ultra算法组第1次测试题</h3>✏️(等待布置)</summary>
     
-空
+敬请期待...
 
 </details>
 
