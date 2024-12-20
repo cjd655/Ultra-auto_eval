@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - main.c
-      - main.py
+      - '*.c'
+      - '*.py'
 
 jobs:
   build-and-test:
@@ -24,7 +24,6 @@ jobs:
             exit 0  # 退出
           fi
           git clone https://${MY_URL}:x-oauth-basic@github.com/NGC2237plus/c-cpp_test.git
-          cd c-cpp_test
           sudo apt-get update
           sudo apt-get install -y gcc-11 python3
           pip3 install -r requirements.txt
@@ -35,4 +34,5 @@ jobs:
             echo "未设置 MY_URL"
             exit 0  # 退出
           fi
+          cd c-cpp_test
           python3 test.py
