@@ -75,24 +75,27 @@ print('Hello World')
   - 运行时间 `≤ 2ms` 得满分 `20 分`
   - 运行时间 `≥ 5000ms` 得 `0 分`
   - `2ms` 到 `5000ms` 之间，\( T \) 是程序执行时间（ms），使用**指数衰减公式**计算：
-    $$
-    S_{\text{time}} = 20 \times e^{-10 \times \frac{T - 2}{5000 - 2}}
-    $$ 
+    
+$$
+S_{\text{time}} = 20 \times e^{-10 \times \frac{T - 2}{5000 - 2}}
+$$ 
 
 - **内存评分**（满分 20 分）：  
   - 内存 `≤ 500KB` 得满分 `20 分`
   - 内存 `≥ 60000KB` 得 `0 分`
   - `500KB` 到 `60000KB` 之间，\( M \) 是程序使用的内存（KB），使用**指数衰减公式**计算：
-    $$
-    S_{\text{memory}} = 20 \times e^{-1.5 \times \frac{M - 500}{60000 - 500}}
-    $$
+
+$$
+S_{\text{memory}} = 20 \times e^{-1.5 \times \frac{M - 500}{60000 - 500}}
+$$
 
 - **测试评分**（满分 60 分）：  
   - 每个测试点平分分数，全部通过得满分 `60 分`
   - 通过测试点 `right` 个，总共 `AllNum` 个测试点，**计算公式**：
-    $$
-    S_{\text{test}} = right \times \frac{60}{AllNum}
-    $$
+    
+$$
+S_{\text{test}} = right \times \frac{60}{AllNum}
+$$
 
 ## 2. 总得分计算
 $$
