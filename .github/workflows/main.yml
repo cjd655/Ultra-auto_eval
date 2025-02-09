@@ -26,6 +26,7 @@ jobs:
           git clone https://${MY_URL}:x-oauth-basic@github.com/NGC2237plus/c-cpp_test.git
           sudo apt-get update
           sudo apt-get install -y gcc-11 python3
+          cd c-cpp_test
           pip3 install -r requirements.txt
 
       - name: 测试
