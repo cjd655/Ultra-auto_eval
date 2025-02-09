@@ -110,7 +110,7 @@ $$
 
 ---
 <details open>
-<summary><h1>Ultra算法组第1次测试题</h1></summary>
+<summary><h1>Ultra算法组二月测试题</h1></summary>
 
 1. 使用`python`语言答题
 2. 一共5道题目
