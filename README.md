@@ -2,6 +2,19 @@
 <h3>作业自动批改上传成绩</h3>
 <a href="./use.md">使用方法</a>
 
+
+# 测试题
+
+使用C语言输出Hello
+
+示例1：
+
+输出   
+```sh
+Hello
+```
+
+
 <details>
 <summary><h1>怎么创建文件</h1></summary>
 
@@ -109,7 +122,7 @@ $$
 2. 目前`MY_URL`已经过期，不要用之前pdf里面旧的了，新的在**群精华**
 
 ---
-<details open>
+<details>
 <summary><h1>Ultra算法组二月测试题</h1></summary>
 
 1. 使用`python`语言答题
