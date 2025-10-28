@@ -1,20 +1,17 @@
 \\202511716132
 \\2792131611@qq.com
 \\MY_URL
-int main() {
-    int s;
-    scanf ("%d",&s);
-    if (s<0 || s>=100){
-        printf("成绩错误\n");
-}else if (s>=90 && s<=100) {
-    printf("A\n");
-}else if (s >= 80 && s<=89){
-    printf("B\n");
-}else if (s >= 70 && s<=79){
-}else if (s >= 60 && s<=69){
-    printf("D\n");
-}else {
-    printf("E\n");
-}
+#include <stdio.h>
+int main() 
+{
+    int i,a,b,c;
+   for (i = 100;i <=999;i++){
+    a = i / 100;
+    b = (i / 10) % 10;
+    c = i % 10;
+    if (a*a*a+b*b*b+c*c*c == i){
+        printf("%d ",i);
+    }
+   }
     return 0;
 }
