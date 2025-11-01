@@ -1,6 +1,6 @@
 //202511716132
 //2792131611@qq.com
-//MY_URL
+//陈俊东
 #include <stdio.h>
 int main() {
     int arr[5], i,num;{
